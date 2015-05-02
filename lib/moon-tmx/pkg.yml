@@ -1,0 +1,8 @@
+---
+name: TMX
+author: IceDragon200 (Corey Powell) (mistdragon100@gmail.com)
+description: Helper module for loading .tmx data
+require: _basalt.rb
+deps:
+  - std
+  - data_model
