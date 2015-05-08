@@ -1,5 +1,5 @@
-require 'std/core_ext/boolean'
-require 'data_model/metal'
+require 'data_model/load'
+require 'moon-boolean/boolean'
 
 module TMX
   # TMX Object model

@@ -1,4 +1,4 @@
-require 'data_model/metal'
+require 'data_model/load'
 
 module TMX
   # TMX Tileset model

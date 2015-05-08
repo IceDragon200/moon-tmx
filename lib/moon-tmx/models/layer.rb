@@ -1,5 +1,6 @@
-require 'std/core_ext/boolean'
-require 'data_model/metal'
+require 'data_model/load'
+require 'moon-boolean/boolean'
+require 'moon-tmx/models/object'
 
 module TMX
   # TMX Map Layer model

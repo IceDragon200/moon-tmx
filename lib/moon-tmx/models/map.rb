@@ -1,4 +1,6 @@
-require 'data_model/metal'
+require 'data_model/load'
+require 'moon-tmx/models/layer'
+require 'moon-tmx/models/tileset'
 
 module TMX
   # TMX Map model
