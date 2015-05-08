@@ -13,7 +13,6 @@ Gem::Specification.new do |s|
   s.authors     = ['Blaž Hrastnik', 'Corey Powell']
 
   s.add_dependency             'rake',            '~> 10.3'
-  s.add_development_dependency 'moon-packages',   '~> 0.0'
   s.add_development_dependency 'moon-data_model', '~> 1.0'
   s.add_development_dependency 'guard',           '~> 2.12'
   s.add_development_dependency 'guard-rspec',     '~> 4.5'
