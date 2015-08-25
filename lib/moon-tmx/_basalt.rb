@@ -1,1 +1,1 @@
-require 'tmx/load'
+require 'moon-tmx/load'
