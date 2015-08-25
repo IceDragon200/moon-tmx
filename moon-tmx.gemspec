@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.name        = 'moon-tmx'
   s.summary     = 'Moon TMX package.'
   s.description = 'Package for loading Tiled map data.'
-  s.homepage    = 'https://github.com/IceDragon200/moon-tmx'
+  s.homepage    = 'https://github.com/polyfox/moon-tmx'
   s.email       = 'mistdragon100@gmail.com'
   s.version     = TMX::Version::STRING
   s.platform    = Gem::Platform::RUBY
