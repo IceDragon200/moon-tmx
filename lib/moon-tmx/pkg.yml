@@ -6,3 +6,4 @@ require: _basalt.rb
 deps:
   - std
   - data_model
+  - moon-boolean
