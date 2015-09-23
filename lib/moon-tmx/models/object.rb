@@ -4,6 +4,9 @@ require 'moon-boolean/boolean'
 module TMX
   # TMX Object model
   class Object < Moon::DataModel::Metal
+    # @!attribute id
+    #   @return [Integer]
+    field :id,        type: Integer, default: 0
     # @!attribute x
     #   @return [Integer]
     field :x,         type: Integer, default: 0
@@ -16,6 +19,9 @@ module TMX
     # @!attribute height
     #   @return [Integer]
     field :height,    type: Integer, default: 0
+    # @!attribute rotation
+    #   @return [Integer]
+    field :rotation,  type: Integer, default: 0
     # @!attribute name
     #   @return [String]
     field :name,      type: String,  default: ''

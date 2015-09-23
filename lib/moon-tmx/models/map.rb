@@ -23,14 +23,20 @@ module TMX
     # @!attribute orientation
     #   @return [String]
     field :orientation, type: String,  default: 'orthogonal'
+    # @!attribute renderorder
+    #   @return [String]
+    field :renderorder, type: String,  default: 'right-down'
+    # @!attribute nextobjectid
+    #   @return [Integer]
+    field :nextobjectid, type: Integer, default: 1
     # @!attribute properties
     #   @return [Hash<String, String>]
     dict :properties,   key:  String,  value: String
     # @!attribute layers
     #   @return [Array<TMX::Layer>]
-    array :layers,      type: Layer
+    array :layers,      type: Layer, coerce_values: true
     # @!attribute tilesets
     #   @return [Array<TMX::Tileset>]
-    array :tilesets,    type: Tileset
+    array :tilesets,    type: Tileset, coerce_values: true
   end
 end

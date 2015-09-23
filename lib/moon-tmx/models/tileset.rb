@@ -18,6 +18,9 @@ module TMX
     # @!attribute imageheight
     #   @return [Integer]
     field :imageheight, type: Integer, default: 0
+    # @!attribute tilecount
+    #   @return [Integer]
+    field :tilecount,   type: Integer, default: 0
     # @!attribute tilewidth
     #   @return [Integer]
     field :tilewidth,   type: Integer, default: 0
@@ -33,5 +36,8 @@ module TMX
     # @!attribute properties
     #   @return [Hash<String, String>]
     dict :properties,   key:  String,  value: String
+    # @!attribute tileproperties
+    #   @return [Hash<String, String>]
+    dict :tileproperties, key:  String,  value: String
   end
 end
