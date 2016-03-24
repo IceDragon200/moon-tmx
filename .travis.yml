@@ -1,11 +1,17 @@
 language: ruby
+sudo: false
 addons:
   code_climate:
     repo_token: 9e161faf4ccc4922069c54bd16a571fecc790de124aed21387d01f290fee4c15
 rvm:
 - 2.1
 - 2.2
+- 2.3
 - ruby-head
+matrix:
+  allow_failures:
+    - rvm: ruby-head
+
 before_install:
 - gem install bundle
 install:
