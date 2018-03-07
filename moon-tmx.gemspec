@@ -1,3 +1,4 @@
+require 'date'
 require_relative 'lib/moon-tmx/version'
 
 Gem::Specification.new do |s|
